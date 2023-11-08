@@ -9,7 +9,8 @@ import { TableArea } from "./components/TableArea";
 import { InfoArea } from "./components/InfoArea";
 
 const App = () => {
-  const [list, setList] = useState(items);
+  //const [list, setList] = useState(items);
+  const [list] = useState(items);
   const [filteredList, setFilteredList] = useState<Item[]>([]);
   const [currentMonth, setCurrentMonth] = useState(getCurrentMonth());
   const [income, setIncome] = useState(0);
